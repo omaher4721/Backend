@@ -13,8 +13,8 @@ app.get('/twitter', (req, res) => {
 app.get('/login', (req, res) => {
   res.send('<h1>please login at cahi aur code</h1>')
 })
-app.get('/youtube', (req, res) => {
-  res.send('<h1>welcome to youtube <h1>')
+app.get('/github', (req, res) => {
+  res.json(githubData)
 })
 
 app.listen(process.env.PORT, () => {
